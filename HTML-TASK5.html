@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .hd{
+            text-align: left;
+        }
+        .re{
+            text-align: right;
+        }
+        .ya{
+            text-align: left;
+        }
+        .reg{
+            margin-left: 45%;
+        }
+        input[type="text"],input[type="password"]{
+            width:99%;
+            height:100%;
+        }
+        .add{
+            height:95%;
+            width:99%;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <table border="solid" width="50%" height="600px" align="center" bgcolor="white">
+        <tr>
+        <th>
+        <label>First Name</label></th>
+        <th><input type="text"></th>
+          </tr>
+          <tr>
+            <th>
+            <label>Last Name</label></th>
+            <th><input type="text"></th>
+              </tr>
+        <tr>
+        <th><label>Email</label></th>
+        <th><input type="text"></th>
+        </tr>
+        <tr >
+        <th>
+        <label>Password</label></th>
+        <th><input type="password"></th>
+        </tr>
+        <tr >
+        <th>
+        <label>Re-Password</label></th>
+        <th><input type="text"></th>
+        </tr>
+        <tr >
+        <th>
+        <label>Gender</label></th>
+        <th class="hd">
+        <input type="radio" name="gender">Male<hr> 
+        <input type="radio" name="gender">Female
+        </th>
+        </tr>
+        <tr>
+        <th>
+        <label>Age</label></th>
+        <th><input type="text"></th>
+        </tr>
+        <tr>
+        <th>
+        <label>Phone Number</label></th>
+        <th><input type="text"></th>
+        </tr>
+        <tr>
+        <th>
+        <label>Address</label></th>
+        <th><textarea class="add"></textarea></th>
+        </tr>
+        </tr>
+        <tr >
+        <th>
+        <label>State</label></th>
+        <th><input type="text"></th>
+        </tr>
+        <tr>
+        <th>
+        <label>Country</label></th>
+        <th class="hd">
+        <select>
+        <option value="C">Choose a country</option>    
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Japan">Japan</option>
+        </th>
+        </tr>
+        <tr >
+        <th>
+        <label>Languages Known</label></th>
+        <th class="hd">
+        <input type="checkbox" >English
+        <input type="checkbox" >Hindi
+        <input type="checkbox" >Marathi
+        </th>
+        </tr>
+        <tr >
+        <th colspan="2" class="ya">
+        <input type="checkbox" >Hereby I declare all the given details are true
+        </th>    
+        </tr>
+        <tr>
+            <th colspan="2" class="re"><label>Log to <a href="#">Ethnus</a> website </label></th>
+            </tr>
+        </table>
+        </form><br>
+        <button class="reg">Register</button>
+
+</body>
+</html>

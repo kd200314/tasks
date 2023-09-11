@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .square { 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid green }
+    .ellipse {
+    width: 25pxpx;
+    height: 45px;
+    border: 5px solid green;
+    border-radius: 50%;}
+    .shape10 { 
+    border-radius: 10px/20px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid green;}
+    .shape12 { border-radius: 10px 20px 30px 40px/30px; 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid green;
+    }
+    .shape11 { border-radius: 5px 10px 15px 30px/30px 15px 10px 5px;
+        display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 5px solid green; 
+    }
+    .circle{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid green;
+    
+    }
+    .rectangle{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 5px solid green ;
+
+
+    }
+
+    
+
+        .new{
+        border: 1px solid black;
+        border-radius:10px;
+        }
+       .one{
+        margin-top: 50px;
+       }
+    </style>    
+
+</head>
+<body>
+    <center>
+     <table border="1" style="width:50% " bgcolor="aqua" class="one">
+        <tr>
+            <th class="new">Firstname</th>
+            <th class="new">Lastname</th>
+            <th class="new">Age</th>
+        </tr>
+        <tr>
+            <td class="new">Jill</td>
+            <td class="new">Smith</td>
+            <td class="new">50</td>
+        </tr>
+        <tr>
+            <td class="new">Eve</td>
+            <td class="new">Jackson</td>
+            <td class="new">94</td>
+        </tr>
+        <tr>
+            <td class="new">John</td>
+            <td class="new">Doe</td>
+            <td class="new">80</td>
+        </tr>
+
+    </table>
+    <br><br>
+    <table cellspacing="10">
+    <tr>    
+    <td  width="150px"><div class="square"></div></td>
+    <td width="150px"><div class="shape10"></div></td>
+    <td width="150px"><div class="ellipse"></div></td>
+    </tr>
+    <tr>
+        <td width="150px"><div class="shape12"></div></td>
+        <td width="150px"><div class="shape11"></div></td>
+        <td width="150px" cellpadding="20"><div class="circle"></div></td>
+    </tr>
+    <tr>
+        <td width="150px"><div class="shape12"></div></td>
+        <td width="150px"><div class="shape11"></div></td>
+        <td width="150px"><div class="rectangle"></div></td>
+    </tr>
+    </table>
+
+
+</center>
+
+</body>
+</html>
